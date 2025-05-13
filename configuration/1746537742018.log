@@ -1,0 +1,19 @@
+!SESSION 2025-05-06 16:22:21.868 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application org.adempiere.server.application
+Command-line arguments:  -application org.adempiere.server.application
+
+!ENTRY org.adempiere.base 4 0 2025-05-06 16:22:44.592
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+java.lang.IllegalArgumentException: Table Name Not Found - AD_RequiredPlugin
+	at org.compiere.model.Query.<init>(Query.java:156)
+	at org.compiere.model.MRequiredPlugin.get(MRequiredPlugin.java:78)
+	at org.idempiere.model.RequiredPluginValidator.started(RequiredPluginValidator.java:109)
+	at org.idempiere.model.RequiredPluginValidator.frameworkEvent(RequiredPluginValidator.java:85)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:973)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)

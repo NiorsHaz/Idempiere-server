@@ -1,0 +1,6 @@
+*** 2025-05-06 16:58:32.864 idempiere Log (CLogFile) ***
+16:58:32.833 AnnotationBasedModelFactory.lambda$0: AnnotationBasedModelFactory loaded 750 classes in 1.68s [34]
+16:58:32.896 Setup.<init>: iDempiere(r) Release 13_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+16:58:33.009 ConfigurationData.load: N:\idempiere\org.idempiere.p2\target\products\org.adempiere.server.product\win32\win32\x86_64\idempiereEnv.properties [1]
+
+*** 2025-05-06 16:59:31.421 idempiere Log (CLogFile) ***

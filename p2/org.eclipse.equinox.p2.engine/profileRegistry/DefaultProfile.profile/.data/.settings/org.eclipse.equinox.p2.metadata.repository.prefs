@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+repositories/file\:_N\:_idempiere-rest-master_com.trekglobal.idempiere.extensions.p2_target_repository/enabled=true
+repositories/file\:_N\:_idempiere-rest-master_com.trekglobal.idempiere.extensions.p2_target_repository/isSystem=false
+repositories/file\:_N\:_idempiere-rest-master_com.trekglobal.idempiere.extensions.p2_target_repository/name=com.trekglobal.idempiere.extensions.p2
+repositories/file\:_N\:_idempiere-rest-master_com.trekglobal.idempiere.extensions.p2_target_repository/suffix=content.xml
+repositories/file\:_N\:_idempiere-rest-master_com.trekglobal.idempiere.extensions.p2_target_repository/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_N\:_idempiere-rest-master_com.trekglobal.idempiere.extensions.p2_target_repository/uri=file\:/N\:/idempiere-rest-master/com.trekglobal.idempiere.extensions.p2/target/repository/
+repositories/file\:_N\:_idempiere-rest-master_com.trekglobal.idempiere.extensions.p2_target_repository/version=1.0.0

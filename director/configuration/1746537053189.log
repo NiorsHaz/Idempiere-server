@@ -1,0 +1,12 @@
+!SESSION 2025-05-06 16:10:53.065 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -profile DefaultProfile -application org.eclipse.equinox.p2.director -profileProperties org.eclipse.update.install.features=true -destination N:/idempiere/org.idempiere.p2/target/products/org.adempiere.server.product/win32/win32/x86_64 -repository file:/N:/idempiere-rest-master/com.trekglobal.idempiere.extensions.p2/target/repository/ -i com.trekglobal.idempiere.rest.api
+Command-line arguments:  -profile DefaultProfile -application org.eclipse.equinox.p2.director -consoleLog -profileProperties org.eclipse.update.install.features=true -destination N:/idempiere/org.idempiere.p2/target/products/org.adempiere.server.product/win32/win32/x86_64 -repository file:/N:/idempiere-rest-master/com.trekglobal.idempiere.extensions.p2/target/repository/ -i com.trekglobal.idempiere.rest.api
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2025-05-06 16:10:57.179
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2025-05-06 16:10:57.179
+!MESSAGE Add request for REST API 0.1.0.202505061225 (com.trekglobal.idempiere.rest.api 0.1.0.202505061225) is satisfiable

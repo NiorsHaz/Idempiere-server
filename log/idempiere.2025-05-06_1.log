@@ -1,0 +1,27 @@
+*** 2025-05-06 16:22:32.274 idempiere Log (CLogFile) ***
+16:22:32.270 Adempiere.startup: iDempiere(r) Release 13_2024-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2025 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [31]
+16:22:32.275 Ini.loadProperties: N:\idempiere\org.idempiere.p2\target\products\org.adempiere.server.product\win32\win32\x86_64\idempiere.properties #29 [31]
+16:22:32.760-----------> Activator.createHazelCastInstance: Starting hazelcast with configuration from file hazelcast.xml [31]
+16:22:32.767-----------> HazelcastInstanceFactory: Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED [31]
+16:22:32.824-----------> AddressPicker: [LOCAL] [adempiere.idempiere/localhost:5432] [5.3.7] Ignoring TCP_KEEPCOUNT. It seems your JDK does not support jdk.net.ExtendedSocketOptions on this OS. Try upgrading to the latest JDK or check with your JDK vendor.Alternatively, on Linux, configure tcp_keepalive_probes in the kernel (affecting default keep-alive configuration for all sockets): For more info see https://tldp.org/HOWTO/html_single/TCP-Keepalive-HOWTO/. If this isn't dealt with, idle connections could be closed prematurely. [31]
+16:22:32.825-----------> AddressPicker: [LOCAL] [adempiere.idempiere/localhost:5432] [5.3.7] Ignoring TCP_KEEPIDLE. It seems your JDK does not support jdk.net.ExtendedSocketOptions on this OS. Try upgrading to the latest JDK or check with your JDK vendor.Alternatively, on Linux, configure tcp_keepalive_time in the kernel (affecting default keep-alive configuration for all sockets): For more info see https://tldp.org/HOWTO/html_single/TCP-Keepalive-HOWTO/. If this isn't dealt with, idle connections could be closed prematurely. [31]
+16:22:32.825-----------> AddressPicker: [LOCAL] [adempiere.idempiere/localhost:5432] [5.3.7] Ignoring TCP_KEEPINTERVAL. It seems your JDK does not support jdk.net.ExtendedSocketOptions on this OS. Try upgrading to the latest JDK or check with your JDK vendor.Alternatively, on Linux, configure tcp_keepalive_intvl in the kernel (affecting default keep-alive configuration for all sockets): For more info see https://tldp.org/HOWTO/html_single/TCP-Keepalive-HOWTO/. If this isn't dealt with, idle connections could be closed prematurely. [31]
+16:22:33.276-----------> CPSubsystem: [10.243.34.198]:5701 [adempiere.idempiere/localhost:5432] [5.3.7] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees. [31]
+16:22:33.739-----------> Node: [10.243.34.198]:5701 [adempiere.idempiere/localhost:5432] [5.3.7] No join method is enabled! Starting standalone. [31]
+16:22:34.279-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 13.0.0.202505061241, but database has build version 13.0.0.202505051223. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [31]
+16:22:40.174-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [31]
+16:22:40.179-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [31]
+16:22:40.179-----------> EMail.isValid: From is invalid=null [31]
+16:22:40.179-----------> EMail.isValid: From is invalid=null [31]
+16:22:40.183-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (Beac-ON:192.168.43.40) to you @ company.org: Invalid Data (System) [31]
+16:22:41.536           LoggedSessionListener.contextInitialized: iDempiere context initialized for 10.0.1 [31]
+16:22:44.594-----------> RequiredPluginValidator.frameworkEvent: DS Listener - OSGi Framework Error: Table Name Not Found - AD_RequiredPlugin [30]
+16:23:40.590-----------> MRole.getFormAccess: Role System Administrator has assigned access incompatible form Multi CSV Import [224]
+16:24:44.585-----------> PackInApplicationActivator.getFilesToProcess: Processing migration [243]
+16:44:03.803-----------> Msg.getMsg: NOT found: ImportCSVSuccess [253]
+16:44:13.947-----------> Msg.getMsg: NOT found: OPERATOR_ILIKE [227]

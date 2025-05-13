@@ -1,0 +1,10 @@
+!SESSION 2025-05-06 16:10:50.421 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -profile DefaultProfile -application org.eclipse.equinox.p2.director -profileProperties org.eclipse.update.install.features=true -destination N:/idempiere/org.idempiere.p2/target/products/org.adempiere.server.product/win32/win32/x86_64 -repository file:/N:/idempiere-rest-master/com.trekglobal.idempiere.extensions.p2/target/repository/ -u com.trekglobal.idempiere.rest.api
+Command-line arguments:  -profile DefaultProfile -application org.eclipse.equinox.p2.director -consoleLog -profileProperties org.eclipse.update.install.features=true -destination N:/idempiere/org.idempiere.p2/target/products/org.adempiere.server.product/win32/win32/x86_64 -repository file:/N:/idempiere-rest-master/com.trekglobal.idempiere.extensions.p2/target/repository/ -u com.trekglobal.idempiere.rest.api
+
+!ENTRY org.eclipse.equinox.p2.director.app 4 0 2025-05-06 16:10:52.592
+!MESSAGE The installable unit com.trekglobal.idempiere.rest.api has not been found.
